@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>布局页面</title>
+</head>
+<body>
+<div >
+    <div th:replace="layput/head :: head"></div>
+    <div th:replace="layput/left :: left"></div>
+    <div layout:fragment="content" > content</div>
+    <div th:replace="layput/end :: end"></div>
+</div>
+</body>
+</html>

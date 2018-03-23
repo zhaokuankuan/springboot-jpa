@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+    <img id="test" src="../static/Desert.jpg" class="test">
+    <h2 id="aa">12121</h2>
+    <button onclick="document.getElementById(test).style.width = 1000" >按钮</button>
+</body>
+<script>
+    debugger;//这个是注释在浏览器中可以给前台打断点
+    document.getElementById("test").style.width = '100px';
+    document.getElementById("aa").style.color="blue";
+    document.getElementById("aa").style.fontFamily="Arial";
+    document.getElementById("aa").style.fontSize="larger";
+</script>
+<style>
+    .test{
+        width:100px;
+        height:100px;
+    }
+</style>
+</html>
